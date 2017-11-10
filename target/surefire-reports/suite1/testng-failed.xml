@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]" verbose="0">
+  <test name="smoketest1(failed)">
+    <classes>
+      <class name="smokeTest.SmokeTest">
+        <methods>
+          <include name="testProfileIconClick"/>
+          <include name="testSelectProfileFromMenu"/>
+          <include name="setUp"/>
+          <include name="testFillInLoginForm"/>
+          <include name="testSelectColor"/>
+          <include name="testVerifyColor"/>
+          <include name="testOpenLoginPopup"/>
+        </methods>
+      </class> <!-- smokeTest.SmokeTest -->
+    </classes>
+  </test> <!-- smoketest1(failed) -->
+</suite> <!-- Failed suite [suite1] -->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite1" duration-ms="4698" started-at="2017-11-03T13:09:01Z" finished-at="2017-11-03T13:09:06Z">
+    <groups>
+    </groups>
+    <test name="smoketest1" duration-ms="4698" started-at="2017-11-03T13:09:01Z" finished-at="2017-11-03T13:09:06Z">
+      <class name="smokeTest.SmokeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:smokeTest.SmokeTest@45792847]" name="setUp" is-config="true" duration-ms="5007" started-at="2017-11-03T14:08:56Z" finished-at="2017-11-03T14:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:smokeTest.SmokeTest@45792847]" name="setup" is-config="true" duration-ms="13" started-at="2017-11-03T14:09:01Z" finished-at="2017-11-03T14:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testOpenLoginPopup()[pri:0, instance:smokeTest.SmokeTest@45792847]" name="testOpenLoginPopup" duration-ms="105" started-at="2017-11-03T14:09:01Z" finished-at="2017-11-03T14:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenLoginPopup -->
+        <test-method status="PASS" signature="testFillInLoginForm()[pri:0, instance:smokeTest.SmokeTest@45792847]" name="testFillInLoginForm" duration-ms="561" started-at="2017-11-03T14:09:01Z" depends-on-methods="smokeTest.SmokeTest.testOpenLoginPopup" finished-at="2017-11-03T14:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillInLoginForm -->
+        <test-method status="PASS" signature="testSelectProfileFromMenu()[pri:0, instance:smokeTest.SmokeTest@45792847]" name="testSelectProfileFromMenu" duration-ms="1886" started-at="2017-11-03T14:09:01Z" depends-on-methods="smokeTest.SmokeTest.testFillInLoginForm" finished-at="2017-11-03T14:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectProfileFromMenu -->
+        <test-method status="PASS" signature="testProfileIconClick()[pri:0, instance:smokeTest.SmokeTest@45792847]" name="testProfileIconClick" duration-ms="1367" started-at="2017-11-03T14:09:03Z" depends-on-methods="smokeTest.SmokeTest.testSelectProfileFromMenu" finished-at="2017-11-03T14:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfileIconClick -->
+        <test-method status="PASS" signature="testSelectColor()[pri:0, instance:smokeTest.SmokeTest@45792847]" name="testSelectColor" duration-ms="153" started-at="2017-11-03T14:09:05Z" depends-on-methods="smokeTest.SmokeTest.testProfileIconClick" finished-at="2017-11-03T14:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectColor -->
+        <test-method status="PASS" signature="testVerifyColor()[pri:0, instance:smokeTest.SmokeTest@45792847]" name="testVerifyColor" duration-ms="604" started-at="2017-11-03T14:09:05Z" depends-on-methods="smokeTest.SmokeTest.testSelectColor" finished-at="2017-11-03T14:09:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyColor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:smokeTest.SmokeTest@45792847]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-11-03T14:09:11Z" finished-at="2017-11-03T14:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- smokeTest.SmokeTest -->
+    </test> <!-- smoketest1 -->
+  </suite> <!-- suite1 -->
+</testng-results>
