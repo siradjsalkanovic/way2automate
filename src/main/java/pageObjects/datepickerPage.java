@@ -13,8 +13,9 @@ public class datepickerPage {
 
     private WebDriver driver;
 
-    String dateFormat;
 
+    String dateFormat;
+    Select dropdown;
 
     @FindBy(linkText = "Datepicker")
     WebElement clickDatePicker;
@@ -55,6 +56,9 @@ public class datepickerPage {
     @FindBy(css = "div[id='ui-datepicker-div']")
     WebElement dateBox;
 
+    @FindBy(css = "div[id='ui-datepicker-div']")
+    WebElement dateBoxSelectMonth;
+
 
 
     public datepickerPage(WebDriver driver) {
@@ -74,8 +78,6 @@ public class datepickerPage {
         driver.switchTo().frame(iFrameWindow1);
         datePicker.click();
         datePicker.sendKeys("11/02/2017");
-
-        System.out.println(datePicker.getText());
         driver.switchTo().defaultContent();
         return PageFactory.initElements(driver, datepickerPage.class);
     }
@@ -110,7 +112,7 @@ public class datepickerPage {
         driver.switchTo().frame(iFrameWindow2);
         datePicker.sendKeys("11/02/2017");
 
-        Select dropdown = new Select(selectBoxAnimation);
+        dropdown = new Select(selectBoxAnimation);
         dropdown.selectByVisibleText("Bounce (UI Effect)");
 
         try {
@@ -189,6 +191,14 @@ public class datepickerPage {
     public Boolean isDateBoxShown(){
         Boolean result = dateBox.getCssValue("display").equals("block");
         return result;
+    }
+
+    public boolean elementHasClass(WebElement element) {
+        return element.getAttribute("class").contains("active");
+    }
+
+    public Boolean dateBoxMonth() {
+        return dateBoxSelectMonth.getCssValue("display").equals("block");
     }
 
 

@@ -15,7 +15,7 @@ public class signInPage {
     @FindBy(css = "div.fancybox-inner div input[name='username']")
     WebElement username1;
 
-    @FindBy(css = "div.fancybox-inner div d")
+    @FindBy(css = "div.fancybox-inner div input[name='password']")
     WebElement password1;
 
     @FindBy(css = "div.fancybox-inner div input[type='submit']")
