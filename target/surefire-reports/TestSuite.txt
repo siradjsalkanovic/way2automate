@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.894 sec - in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.855 sec <<< FAILURE! - in TestSuite
+testSelectDatepicker(smokeTest.SecondTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at smokeTest.SecondTest.testSelectDatepicker(SecondTest.java:68)
+

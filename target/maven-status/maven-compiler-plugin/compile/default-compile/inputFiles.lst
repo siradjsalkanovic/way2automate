@@ -1,2 +1,7 @@
-/Users/siradj/IdeaProjects/testng/src/main/java/pageObjects/homePage.java
-/Users/siradj/IdeaProjects/testng/src/main/java/pageObjects/dashboardPage.java
+/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/signInPage.java
+/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/selectablePage.java
+/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/alertsPage.java
+/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/datepickerPage.java
+/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/droppablePage.java
+/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/homePage.java
+/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/sliderPage.java

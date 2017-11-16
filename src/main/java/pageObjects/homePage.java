@@ -24,9 +24,6 @@ public class homePage {
     @FindBy(linkText = "Datepicker")
     WebElement clickDatePicker;
 
-    @FindBy(linkText = "Selectable")
-    WebElement clickSelectable;
-
 
     public homePage (WebDriver driver) {
         this.driver = driver;

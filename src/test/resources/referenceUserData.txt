@@ -1,0 +1,6 @@
+username=demotest123
+password=demotest123
+alertMessage=I am an alert box!
+testName=Siradj
+dateFormat=Thursday, 2 November, 2017
+varDropdown=Drop (UI Effect)

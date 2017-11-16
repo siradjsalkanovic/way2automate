@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name="suite1" verbose="1" >
-  <test name="smoketest1" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite" verbose="10">
+
+  <test name="smoketest" parallel="false">
     <classes>
-      <class name="smokeTest.SmokeTest"/>
+        <class name="smokeTest.SmokeTest"/>
+        <class name="smokeTest.SecondTest"/>
     </classes>
- </test>
+  </test>
 </suite>
