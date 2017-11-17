@@ -37,7 +37,6 @@ public class homePage {
     public homePage clickDatePickerLink () {
         clickDatePicker.click();
         return PageFactory.initElements(driver, homePage.class);
-
     }
 
 

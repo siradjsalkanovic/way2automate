@@ -111,32 +111,10 @@ public class datepickerPage {
 
         driver.switchTo().frame(iFrameWindow2);
         datePicker.sendKeys("11/02/2017");
-
         dropdown = new Select(selectBoxAnimation);
         dropdown.selectByVisibleText("Bounce (UI Effect)");
-
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         datePicker.click();
-
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         datePicker.sendKeys(Keys.ESCAPE);
-
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         dropdown.selectByVisibleText("Drop (UI Effect)");
 
         driver.switchTo().defaultContent();
@@ -174,11 +152,7 @@ public class datepickerPage {
         driver.switchTo().frame(iFrameWindow4);
 
         datePicker.click();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
         return PageFactory.initElements(driver, datepickerPage.class);
     }
 

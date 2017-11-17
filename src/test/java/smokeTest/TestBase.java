@@ -9,7 +9,7 @@ import pageObjects.*;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
-    protected WebDriver driver;
+    public static WebDriver driver;
     protected String baseUrl;
     protected homePage homePage;
     protected datepickerPage datepickerPage;

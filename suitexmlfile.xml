@@ -3,8 +3,18 @@
 
   <test name="smoketest" parallel="false">
     <classes>
-        <class name="smokeTest.SmokeTest"/>
-        <class name="smokeTest.SecondTest"/>
+        <class name="smokeTest.OpenLoginPopupTest"/>
+        <class name="smokeTest.FillInLoginTest"/>
+        <class name="smokeTest.SelectDatepickerTest"/>
+        <class name="smokeTest.DatepickerTest"/>
+        <class name="smokeTest.SelectSelectableTest"/>
+        <class name="smokeTest.SelectableTest"/>
+        <class name="smokeTest.SelectAlertsTest"/>
+        <class name="smokeTest.AlertsTest"/>
+        <class name="smokeTest.SelectDroppableTest"/>
+        <class name="smokeTest.DroppableTest"/>
+        <class name="smokeTest.SelectSliderTest"/>
+        <class name="smokeTest.SliderTest"/>
     </classes>
   </test>
 </suite>
