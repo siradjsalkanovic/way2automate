@@ -4,18 +4,18 @@ package smokeTest;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import pageObjects.droppablePage;
+import pageObjects.DroppablePage;
 
 public class SelectSliderTest extends TestBase{
 
     @BeforeTest(alwaysRun = true)
     public void setup() {
-        droppablePage = PageFactory.initElements(driver,droppablePage.class);
+        DroppablePage = PageFactory.initElements(driver, DroppablePage.class);
     }
 
     @Test
     public void testSelectDroppable () {
-        droppablePage.clickSliderLink();
+        DroppablePage.clickSliderLink();
     }
 
 }

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class sliderPage {
+public class SliderPage {
 
     private WebDriver driver;
 
@@ -28,11 +28,11 @@ public class sliderPage {
     WebElement clikRegistration;
 
 
-    public sliderPage(WebDriver driver){
+    public SliderPage(WebDriver driver){
         this.driver = driver;
     }
 
-    public sliderPage moveSlider(){
+    public SliderPage moveSlider(){
 
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(iFrameWindow1));
@@ -48,7 +48,7 @@ public class sliderPage {
         Actions actions = new Actions(driver);
         actions.dragAndDropBy(sliderHandle,sliderWidth-xPosition,0).perform();
 
-        return PageFactory.initElements(driver, sliderPage.class);
+        return PageFactory.initElements(driver, SliderPage.class);
     }
 
     public Boolean verifyAmount (String value) {
@@ -58,9 +58,9 @@ public class sliderPage {
         return result;
     }
 
-    public sliderPage clickRegistrationLink(){
+    public SliderPage clickRegistrationLink(){
         clikRegistration.click();
-        return PageFactory.initElements(driver,sliderPage.class);
+        return PageFactory.initElements(driver, SliderPage.class);
 
     }
 

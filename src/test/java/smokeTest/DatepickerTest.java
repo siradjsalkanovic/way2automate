@@ -2,8 +2,6 @@ package smokeTest;
 
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
@@ -22,8 +20,10 @@ public class DatepickerTest extends TestBase {
     @BeforeTest
     public void readFiles() {
         String workingDir = System.getProperty("user.dir");
+        String pathToFile = "/src/test/resources/referenceUserData.txt";
+        String varCompleteFilePath = workingDir + pathToFile;
         try {
-            FileInputStream fis = new FileInputStream(workingDir + "/src/test/resources/referenceUserData.txt");
+            FileInputStream fis = new FileInputStream(varCompleteFilePath);
             prop = new Properties();
             prop.load(fis);
             dateFormat = prop.getProperty("dateFormat");
@@ -37,55 +37,55 @@ public class DatepickerTest extends TestBase {
 
     @BeforeTest(alwaysRun = true)
     public void setup() {
-        datepickerPage = PageFactory.initElements(driver, datepickerPage.class);
+        DatepickerPage = PageFactory.initElements(driver, DatepickerPage.class);
     }
 
 
     @Test
     public void testFillDatePicker() {
         Assert.assertNotNull(driver.findElements(By.cssSelector("input[id='datepicker']")));
-        datepickerPage.fillDatePicker();
+        DatepickerPage.fillDatePicker();
     }
 
     @Test(dependsOnMethods = "testFillDatePicker")
     public void testSelTabAnimations() {
-        datepickerPage.selectTabAnimations();
-        Assert.assertTrue(datepickerPage.elementHasClass(driver.findElement(By.cssSelector("div.responsive-tabs-default ul.responsive-tabs li:nth-child(2)"))));
+        DatepickerPage.selectTabAnimations();
+        Assert.assertTrue(DatepickerPage.elementHasClass(driver.findElement(By.cssSelector("div.responsive-tabs-default ul.responsive-tabs li:nth-child(2)"))));
     }
 
     @Test(dependsOnMethods = "testSelTabAnimations")
     public void testTabAnimationsCommands() {
         Assert.assertNotNull(driver.findElements(By.cssSelector("select[id='anim']")));
-        datepickerPage.tabAnimationsCommands();
+        DatepickerPage.tabAnimationsCommands();
     }
 
     @Test(dependsOnMethods = "testTabAnimationsCommands")
     public void testTabDisplayMonthAndYear() {
-        datepickerPage.selectTabDisplayMonthAndYear();
-        Assert.assertTrue(datepickerPage.elementHasClass(driver.findElement(By.cssSelector("div.responsive-tabs-default ul.responsive-tabs li:nth-child(3)"))));
+        DatepickerPage.selectTabDisplayMonthAndYear();
+        Assert.assertTrue(DatepickerPage.elementHasClass(driver.findElement(By.cssSelector("div.responsive-tabs-default ul.responsive-tabs li:nth-child(3)"))));
     }
 
     @Test(dependsOnMethods = "testTabDisplayMonthAndYear")
     public void testTabDisplayMonthAndYearCommands() {
         Assert.assertNotNull(driver.findElements(By.cssSelector("input[id='datepicker']")));
-        datepickerPage.tabDisplayMonthAndYearCommands();
+        DatepickerPage.tabDisplayMonthAndYearCommands();
     }
 
     @Test(dependsOnMethods = "testTabDisplayMonthAndYearCommands")
     public void testSelTabFormatDate() {
-        datepickerPage.selectTabFormatDate();
-        Assert.assertTrue(datepickerPage.elementHasClass(driver.findElement(By.cssSelector("div.responsive-tabs-default ul.responsive-tabs li:nth-child(4)"))));
+        DatepickerPage.selectTabFormatDate();
+        Assert.assertTrue(DatepickerPage.elementHasClass(driver.findElement(By.cssSelector("div.responsive-tabs-default ul.responsive-tabs li:nth-child(4)"))));
     }
 
     @Test(dependsOnMethods = "testSelTabFormatDate")
     public void testTabFormatDateCommands() {
-        datepickerPage.tabFormatDateCommands();
-        Assert.assertTrue(datepickerPage.compareDateFormat(dateFormat), "Verification failed");
+        DatepickerPage.tabFormatDateCommands();
+        Assert.assertTrue(DatepickerPage.compareDateFormat(dateFormat), "Verification failed");
     }
 
     @Test(dependsOnMethods = "testTabFormatDateCommands")
     public void testShowDatePicker() {
-        datepickerPage.clickShowDatePicker();
-        Assert.assertTrue(datepickerPage.isDateBoxShown(), "Date Picker not visible");
+        DatepickerPage.clickShowDatePicker();
+        Assert.assertTrue(DatepickerPage.isDateBoxShown(), "Date Picker not visible");
     }
 }

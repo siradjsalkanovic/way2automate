@@ -1,8 +1,6 @@
 package smokeTest;
 
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -21,8 +19,10 @@ public class FillInLoginTest extends TestBase{
     @BeforeTest
     public void readFiles() {
         String workingDir = System.getProperty("user.dir");
+        String pathToFile = "/src/test/resources/referenceUserData.txt";
+        String varCompleteFilePath = workingDir + pathToFile;
         try {
-            FileInputStream fis = new FileInputStream(workingDir + "/src/test/resources/referenceUserData.txt");
+            FileInputStream fis = new FileInputStream(varCompleteFilePath);
             prop = new Properties();
             prop.load(fis);
             varUser = prop.getProperty("username");
@@ -37,14 +37,14 @@ public class FillInLoginTest extends TestBase{
 
     @BeforeTest(alwaysRun = true)
     public void setup() {
-        signInPage = PageFactory.initElements(driver,signInPage.class);
+        SignInPage = PageFactory.initElements(driver, SignInPage.class);
     }
 
     @Test
     public void testFillInLogin() {
-        signInPage.sendUsername(varUser);
-        signInPage.sendPassword(varPwd);
-        signInPage.clickBtnSubmit();
+        SignInPage.sendUsername(varUser);
+        SignInPage.sendPassword(varPwd);
+        SignInPage.clickBtnSubmit();
     }
 }
 

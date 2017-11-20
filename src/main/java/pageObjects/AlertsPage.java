@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class alertsPage {
+public class AlertsPage {
     private WebDriver driver;
 
     @FindBy(tagName = "button")
@@ -29,28 +29,28 @@ public class alertsPage {
     WebElement clickDroppable;
 
 
-    public alertsPage(WebDriver driver){
+    public AlertsPage(WebDriver driver){
         this.driver = driver;
     }
 
-    public selectablePage selectTabInputAlert() {
+    public SelectablePage selectTabInputAlert() {
 
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(tabInputAlert));
 
         tabInputAlert.click();
 
-        return PageFactory.initElements(driver, selectablePage.class);
+        return PageFactory.initElements(driver, SelectablePage.class);
     }
 
-    public alertsPage showAlert(){
+    public AlertsPage showAlert(){
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(iFrameWindow1));
 
         driver.switchTo().frame(iFrameWindow1);
 
         btnShowAlert.click();
-        return PageFactory.initElements(driver,alertsPage.class);
+        return PageFactory.initElements(driver, AlertsPage.class);
     }
 
     public Boolean checkAlertMessage(String Msg){
@@ -59,27 +59,27 @@ public class alertsPage {
         return result;
     }
 
-    public alertsPage showAlert2(){
+    public AlertsPage showAlert2(){
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(iFrameWindow2));
 
         driver.switchTo().frame(iFrameWindow2);
 
         btnShowAlert.click();
-        return PageFactory.initElements(driver,alertsPage.class);
+        return PageFactory.initElements(driver, AlertsPage.class);
     }
 
-    public alertsPage acceptAlert(){
+    public AlertsPage acceptAlert(){
         driver.switchTo().alert().accept();
         driver.switchTo().defaultContent();
-        return PageFactory.initElements(driver,alertsPage.class);
+        return PageFactory.initElements(driver, AlertsPage.class);
     }
 
-    public alertsPage textIntoAlertBox(String name){
+    public AlertsPage textIntoAlertBox(String name){
         driver.switchTo().alert().sendKeys(name);
         driver.switchTo().alert().accept();
         driver.switchTo().defaultContent();
-        return PageFactory.initElements(driver,alertsPage.class);
+        return PageFactory.initElements(driver, AlertsPage.class);
     }
 
     public Boolean checkMessage(String name){
@@ -87,13 +87,19 @@ public class alertsPage {
         driver.switchTo().frame(iFrameWindow2);
 
         String Msg = textBoxDemo.getText();
-        Boolean result =Msg.equals("Hello "+name+"! How are you today?");
+        Boolean result = Msg.equals("Hello "+name+"! How are you today?");
         return result;
     }
 
-    public alertsPage clickDroppableLink(){
+    public Boolean checkTabActive(){
+
+        Boolean result = tabInputAlert.getAttribute("class").equals("active");
+        return result;
+    }
+
+    public AlertsPage clickDroppableLink(){
         driver.switchTo().defaultContent();
         clickDroppable.click();
-        return PageFactory.initElements(driver, alertsPage.class);
+        return PageFactory.initElements(driver, AlertsPage.class);
     }
 }

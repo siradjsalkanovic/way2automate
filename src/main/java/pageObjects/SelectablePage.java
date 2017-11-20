@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
-public class selectablePage {
+public class SelectablePage {
     private WebDriver driver;
 
     @FindBy(linkText = "Datepicker")
@@ -37,32 +37,32 @@ public class selectablePage {
     @FindBy(linkText = "Alert")
     WebElement clickAlertLink;
 
-    public selectablePage(WebDriver driver) {
+    public SelectablePage(WebDriver driver) {
         this.driver = driver;
     }
 
 
-    public selectablePage selectTabDisplayAsGrid() {
+    public SelectablePage selectTabDisplayAsGrid() {
 
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(tabDisplayAsGrid));
 
         tabDisplayAsGrid.click();
 
-        return PageFactory.initElements(driver, selectablePage.class);
+        return PageFactory.initElements(driver, SelectablePage.class);
     }
 
-    public selectablePage selectTabSerialize() {
+    public SelectablePage selectTabSerialize() {
 
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(tabSerialize));
 
         tabSerialize.click();
 
-        return PageFactory.initElements(driver, selectablePage.class);
+        return PageFactory.initElements(driver, SelectablePage.class);
     }
 
-    public selectablePage selectOptionIterator() {
+    public SelectablePage selectOptionIterator() {
 
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(iFrameWindow1));
@@ -91,10 +91,10 @@ public class selectablePage {
 
         driver.switchTo().defaultContent();
 
-        return PageFactory.initElements(driver,selectablePage.class);
+        return PageFactory.initElements(driver, SelectablePage.class);
     }
 
-    public selectablePage selectOptionIterator2() {
+    public SelectablePage selectOptionIterator2() {
 
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(iFrameWindow2));
@@ -122,10 +122,10 @@ public class selectablePage {
 
         driver.switchTo().defaultContent();
 
-        return PageFactory.initElements(driver,selectablePage.class);
+        return PageFactory.initElements(driver, SelectablePage.class);
     }
 
-    public selectablePage selectOptionIterator3() {
+    public SelectablePage selectOptionIterator3() {
 
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(iFrameWindow3));
@@ -153,12 +153,12 @@ public class selectablePage {
 
         driver.switchTo().defaultContent();
 
-        return PageFactory.initElements(driver,selectablePage.class);
+        return PageFactory.initElements(driver, SelectablePage.class);
     }
 
-    public datepickerPage clickAlertsLink(){
+    public DatepickerPage clickAlertsLink(){
         driver.switchTo().defaultContent();
         clickAlertLink.click();
-        return PageFactory.initElements(driver, datepickerPage.class);
+        return PageFactory.initElements(driver, DatepickerPage.class);
     }
 }
