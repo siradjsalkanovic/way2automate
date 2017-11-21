@@ -1,7 +1,7 @@
-/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/DroppablePage.java
-/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/AlertsPage.java
-/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/SignInPage.java
-/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/DatepickerPage.java
-/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/SliderPage.java
-/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/HomePage.java
-/Users/siradj/Desktop/way2automate/src/main/java/pageObjects/SelectablePage.java
+/Users/siradj/Desktop/way2automate/src/main/java/PageObjects/DatepickerPage.java
+/Users/siradj/Desktop/way2automate/src/main/java/PageObjects/SelectablePage.java
+/Users/siradj/Desktop/way2automate/src/main/java/PageObjects/SignInPage.java
+/Users/siradj/Desktop/way2automate/src/main/java/PageObjects/AlertsPage.java
+/Users/siradj/Desktop/way2automate/src/main/java/PageObjects/HomePage.java
+/Users/siradj/Desktop/way2automate/src/main/java/PageObjects/DroppablePage.java
+/Users/siradj/Desktop/way2automate/src/main/java/PageObjects/SliderPage.java

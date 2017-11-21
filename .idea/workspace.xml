@@ -2,57 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0124f8fd-a51c-429b-b94c-c57f567137f8" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AlertsPage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/AlertsPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/DatepickerPage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/DatepickerPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/DroppablePage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/DroppablePage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SelectablePage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/SelectablePage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SignInPage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/SignInPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SliderPage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/SliderPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/AlertsTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/AlertsTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/DatepickerTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/DatepickerTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/DroppableTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/DroppableTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/FillInLoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/FillInLoginTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/OpenLoginPopupTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/OpenLoginPopupTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectAlertsTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SelectAlertsTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectDatepickerTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SelectDatepickerTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectDroppableTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SelectDroppableTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectSelectableTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SelectSelectableTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectSliderTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SelectSliderTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectableTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SelectableTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SliderTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SliderTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/TestBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/alertsPage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/alertsPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/datepickerPage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/datepickerPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/droppablePage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/droppablePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/homePage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/homePage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/selectablePage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/selectablePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/signInPage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/signInPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/sliderPage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/sliderPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/AlertsTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/AlertsTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/DatepickerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/DatepickerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/DroppableTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/DroppableTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/FillInLoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/FillInLoginTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/OpenLoginPopupTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/OpenLoginPopupTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectAlertsTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectAlertsTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectDatepickerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectDatepickerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectDroppableTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectDroppableTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectSelectableTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectSelectableTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectSliderTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectSliderTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectableTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectableTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SliderTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SliderTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/TestBase.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/TestBase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suitexmlfile.xml" afterPath="$PROJECT_DIR$/suitexmlfile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SmokeTest/DatepickerTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/DatepickerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.AlertsTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.AlertsTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.DatepickerTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.DatepickerTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.DroppableTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.DroppableTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.FillInLoginTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.FillInLoginTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.OpenLoginPopupTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.OpenLoginPopupTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectAlertsTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectAlertsTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectDatepickerTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectDatepickerTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectDroppableTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectDroppableTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectSelectableTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectSelectableTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectSliderTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectSliderTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectableTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectableTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SliderTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SliderTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/suite/classes.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/suite/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/suite/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/toc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/suite/smoketest.html" afterPath="$PROJECT_DIR$/target/surefire-reports/suite/smoketest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/suite/smoketest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/suite/smoketest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/suite/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/suite/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="244">
+              <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -94,9 +70,17 @@
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatepickerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/DatepickerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="88" column="42" lean-forward="true" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -178,7 +162,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/signInPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/smokeTest/SelectDatePickerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest1.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/homePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/smokeTest/SecondTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest.java" />
@@ -200,12 +183,20 @@
         <option value="$PROJECT_DIR$/src/test/java/smokeTest/SelectableTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/smokeTest/AlertsTest.java" />
         <option value="$PROJECT_DIR$/suitexmlfile.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/SmokeTest/DatepickerTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="37" />
-    <option name="y" value="53" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="775" />
   </component>
@@ -584,12 +575,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_siradj_Desktop_way2automate_suitexmlfile_xml - 2017.11.20 at 12h 48m 17s.xml">
-      <configuration name="/Users/siradj/Desktop/way2automate/suitexmlfile.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_siradj_Desktop_way2automate_suitexmlfile_xml - 2017.11.20 at 12h 56m 26s.xml">
-      <configuration name="/Users/siradj/Desktop/way2automate/suitexmlfile.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_siradj_Desktop_way2automate_suitexmlfile_xml - 2017.11.20 at 13h 03m 00s.xml">
       <configuration name="/Users/siradj/Desktop/way2automate/suitexmlfile.xml" configurationId="TestNG" />
     </history-entry>
@@ -614,24 +599,31 @@
     <history-entry file="_Users_siradj_Desktop_way2automate_suitexmlfile_xml - 2017.11.20 at 13h 50m 00s.xml">
       <configuration name="/Users/siradj/Desktop/way2automate/suitexmlfile.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_siradj_Desktop_way2automate_suitexmlfile_xml - 2017.11.21 at 10h 01m 27s.xml">
+      <configuration name="/Users/siradj/Desktop/way2automate/suitexmlfile.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_siradj_Desktop_way2automate_suitexmlfile_xml - 2017.11.21 at 10h 42m 36s.xml">
+      <configuration name="/Users/siradj/Desktop/way2automate/suitexmlfile.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="53" width="1400" height="775" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="816" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33854908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31989247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -642,7 +634,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -679,8 +670,6 @@
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -824,14 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/DatepickerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="40" lean-forward="false" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/FillInLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -902,8 +883,8 @@
         <state relative-caret-position="180">
           <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding>
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="false" />
+            <element signature="e#454#455#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -921,20 +902,8 @@
         <state relative-caret-position="195">
           <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/SelectableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="false" />
+            <element signature="e#468#469#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -983,8 +952,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="244">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/SelectableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/DatepickerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="88" column="42" lean-forward="true" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
           <folding />
         </state>
       </provider>
