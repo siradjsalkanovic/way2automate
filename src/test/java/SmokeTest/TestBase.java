@@ -1,9 +1,9 @@
-package smokeTest;
+package SmokeTest;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
-import pageObjects.*;
+import PageObjects.*;
 
 import java.util.concurrent.TimeUnit;
 

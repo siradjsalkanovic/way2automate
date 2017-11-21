@@ -2,47 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0124f8fd-a51c-429b-b94c-c57f567137f8" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/alertsPage.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AlertsPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/datepickerPage.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DatepickerPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/droppablePage.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/DroppablePage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/homePage.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/selectablePage.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SelectablePage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/signInPage.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SignInPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/sliderPage.java" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SliderPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/alertsPage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/alertsPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/datepickerPage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/datepickerPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/droppablePage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/droppablePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/homePage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/homePage.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AlertsPage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/AlertsPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/DatepickerPage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/DatepickerPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/DroppablePage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/DroppablePage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SelectablePage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/SelectablePage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SignInPage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/SignInPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SliderPage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/SliderPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/AlertsTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/AlertsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/DatepickerTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/DatepickerTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/DroppableTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/DroppableTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/FillInLoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/FillInLoginTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/OpenLoginPopupTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/OpenLoginPopupTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectAlertsTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SelectAlertsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectDatepickerTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SelectDatepickerTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectDroppableTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SelectDroppableTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectSelectableTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SelectSelectableTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectSliderTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SelectSliderTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectableTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SelectableTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SliderTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/SliderTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest/TestBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/selectablePage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/selectablePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/signInPage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/signInPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageObjects/sliderPage.class" afterPath="$PROJECT_DIR$/target/classes/pageObjects/sliderPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/AlertsTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/AlertsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/DatepickerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/DatepickerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/DroppableTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/DroppableTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/FillInLoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/FillInLoginTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/OpenLoginPopupTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/OpenLoginPopupTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectAlertsTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectAlertsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectDatepickerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectDatepickerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectDroppableTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectDroppableTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectSelectableTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectSelectableTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectSliderTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectSliderTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectableTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SelectableTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/SliderTest.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/SliderTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/smokeTest/TestBase.class" afterPath="$PROJECT_DIR$/target/test-classes/smokeTest/TestBase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/AlertsTest.java" afterPath="$PROJECT_DIR$/src/test/java/smokeTest/AlertsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/DatepickerTest.java" afterPath="$PROJECT_DIR$/src/test/java/smokeTest/DatepickerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/DroppableTest.java" afterPath="$PROJECT_DIR$/src/test/java/smokeTest/DroppableTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/FillInLoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/smokeTest/FillInLoginTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/OpenLoginPopupTest.java" afterPath="$PROJECT_DIR$/src/test/java/smokeTest/OpenLoginPopupTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectAlertsTest.java" afterPath="$PROJECT_DIR$/src/test/java/smokeTest/SelectAlertsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectDatepickerTest.java" afterPath="$PROJECT_DIR$/src/test/java/smokeTest/SelectDatepickerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectDroppableTest.java" afterPath="$PROJECT_DIR$/src/test/java/smokeTest/SelectDroppableTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectSelectableTest.java" afterPath="$PROJECT_DIR$/src/test/java/smokeTest/SelectSelectableTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectSliderTest.java" afterPath="$PROJECT_DIR$/src/test/java/smokeTest/SelectSliderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SelectableTest.java" afterPath="$PROJECT_DIR$/src/test/java/smokeTest/SelectableTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/SliderTest.java" afterPath="$PROJECT_DIR$/src/test/java/smokeTest/SliderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/smokeTest/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/smokeTest/TestBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suitexmlfile.xml" afterPath="$PROJECT_DIR$/suitexmlfile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.AlertsTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.AlertsTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.DatepickerTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.DatepickerTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.DroppableTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.DroppableTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.FillInLoginTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.FillInLoginTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.OpenLoginPopupTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.OpenLoginPopupTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectAlertsTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectAlertsTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectDatepickerTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectDatepickerTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectDroppableTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectDroppableTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectSelectableTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectSelectableTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectSliderTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectSliderTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectableTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SelectableTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SliderTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-smokeTest.SliderTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/suite/classes.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/classes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/suite/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/suite/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/toc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/suite/smoketest.html" afterPath="$PROJECT_DIR$/target/surefire-reports/suite/smoketest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/suite/smoketest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/suite/smoketest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/suite/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/suite/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,14 +71,24 @@
         <entry file="file://$PROJECT_DIR$/suitexmlfile.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+              <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SelectableTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SelectableTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/SelectableTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
@@ -82,7 +102,7 @@
         </entry>
       </file>
       <file leaf-file-name="AlertsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AlertsPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/AlertsPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -93,21 +113,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlertsTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/AlertsTest.java">
+      <file leaf-file-name="AlertsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/AlertsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="55" column="56" lean-forward="true" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+            <state relative-caret-position="278">
+              <caret line="50" column="56" lean-forward="false" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/TestBase.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -164,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/datepickerPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/DatepickerPage.java" />
-        <option value="$PROJECT_DIR$/suitexmlfile.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/AlertsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/DroppablePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/smokeTest/DatepickerTest.java" />
@@ -180,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/test/java/smokeTest/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/smokeTest/SelectableTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/smokeTest/AlertsTest.java" />
+        <option value="$PROJECT_DIR$/suitexmlfile.xml" />
       </list>
     </option>
   </component>
@@ -205,10 +225,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,7 +260,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
+              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testng" type="b2602c69:ProjectViewProjectNode" />
@@ -261,7 +281,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="smokeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="SmokeTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testng" type="b2602c69:ProjectViewProjectNode" />
@@ -300,7 +320,7 @@
     <configuration name="DatePickerTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="smokeTest.*" />
+          <option name="PATTERN" value="SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,7 +352,7 @@
     <configuration name="FillInLoginTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="smokeTest.*" />
+          <option name="PATTERN" value="SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,7 +361,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="smokeTest" />
-      <option name="MAIN_CLASS_NAME" value="smokeTest.FillInLoginTest" />
+      <option name="MAIN_CLASS_NAME" value="SmokeTest.FillInLoginTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -364,7 +384,7 @@
     <configuration name="SmokeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="smokeTest.*" />
+          <option name="PATTERN" value="SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,7 +416,7 @@
     <configuration name="SmokeTest1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="smokeTest.*" />
+          <option name="PATTERN" value="SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -601,13 +621,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33854908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33854908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -623,6 +642,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -634,7 +654,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java</url>
           <line>28</line>
           <properties />
           <option name="timeStamp" value="28" />
@@ -645,23 +665,55 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest.java">
+    <entry file="file://$PROJECT_DIR$/suitexmlfile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/SelectableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/AlertsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/AlertsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <caret line="55" column="56" lean-forward="false" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest1.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
@@ -669,7 +721,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
@@ -685,15 +737,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
@@ -709,14 +754,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest1.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0.jar!/com/google/common/base/Preconditions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -731,7 +769,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/SignInPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/SignInPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
@@ -750,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,51 +795,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="166" column="36" lean-forward="true" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SecondTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest1.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SmokeTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SecondTest.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/DatepickerPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/DatepickerPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="164" column="19" lean-forward="false" selection-start-line="164" selection-start-column="19" selection-end-line="164" selection-end-column="19" />
@@ -810,7 +816,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/DroppablePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/DroppablePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
@@ -818,7 +824,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/DatepickerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/DatepickerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="88" column="40" lean-forward="false" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
@@ -826,7 +832,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/FillInLoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/FillInLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
@@ -834,18 +840,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/OpenLoginPopupTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/OpenLoginPopupTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding>
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="false" />
+            <element signature="e#453#454#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/DroppableTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/DroppableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
@@ -853,7 +859,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/SelectablePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/SelectablePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
@@ -861,7 +867,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SliderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/SliderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
@@ -869,29 +875,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SelectSliderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/SelectSliderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="false" />
+            <element signature="e#473#474#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SelectSelectableTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/SelectSelectableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="false" />
+            <element signature="e#473#474#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SelectDatepickerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/SelectDatepickerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
@@ -902,7 +908,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SelectAlertsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/SelectAlertsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
@@ -910,7 +916,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SelectDroppableTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/SelectDroppableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
@@ -921,7 +927,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/SelectableTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/SelectableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
@@ -933,15 +939,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suitexmlfile.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
@@ -949,15 +947,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AlertsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/AlertsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -967,10 +965,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/smokeTest/AlertsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SmokeTest/AlertsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="55" column="56" lean-forward="true" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+        <state relative-caret-position="278">
+          <caret line="50" column="56" lean-forward="false" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suitexmlfile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

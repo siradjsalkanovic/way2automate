@@ -3,21 +3,84 @@
 <suite verbose="0" name="Failed suite [suite]">
   <test name="smoketest(failed)">
     <classes>
-      <class name="smokeTest.SmokeTest">
+      <class name="smokeTest.SelectAlertsTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="readFiles"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- smokeTest.SmokeTest -->
-      <class name="smokeTest.SecondTest">
+      </class> <!-- smokeTest.SelectAlertsTest -->
+      <class name="smokeTest.SliderTest">
         <methods>
-          <include name="testSelectDatepicker"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- smokeTest.SliderTest -->
+      <class name="smokeTest.SelectDatepickerTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- smokeTest.SelectDatepickerTest -->
+      <class name="smokeTest.SelectDroppableTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- smokeTest.SelectDroppableTest -->
+      <class name="smokeTest.SelectSelectableTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- smokeTest.SelectSelectableTest -->
+      <class name="smokeTest.OpenLoginPopupTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- smokeTest.OpenLoginPopupTest -->
+      <class name="smokeTest.DroppableTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- smokeTest.DroppableTest -->
+      <class name="smokeTest.AlertsTest">
+        <methods>
+          <include name="testAlertsAcceptAlert"/>
+          <include name="testAlertsTabInputAlert"/>
+          <include name="testAlertsInsertText"/>
+          <include name="testAlertsShowSecondAlert"/>
+          <include name="setup"/>
+          <include name="readFiles"/>
+          <include name="testAlertsShowFirstAlert"/>
+        </methods>
+      </class> <!-- smokeTest.AlertsTest -->
+      <class name="smokeTest.DatepickerTest">
+        <methods>
+          <include name="testFillDatePicker"/>
+          <include name="testTabAnimationsCommands"/>
+          <include name="testShowDatePicker"/>
+          <include name="setup"/>
+          <include name="testTabDisplayMonthAndYearCommands"/>
+          <include name="testSelTabFormatDate"/>
+          <include name="readFiles"/>
+          <include name="testSelTabAnimations"/>
+          <include name="testTabDisplayMonthAndYear"/>
+          <include name="testTabFormatDateCommands"/>
+        </methods>
+      </class> <!-- smokeTest.DatepickerTest -->
+      <class name="smokeTest.FillInLoginTest">
+        <methods>
           <include name="readFiles"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- smokeTest.SecondTest -->
+      </class> <!-- smokeTest.FillInLoginTest -->
+      <class name="smokeTest.SelectSliderTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- smokeTest.SelectSliderTest -->
+      <class name="smokeTest.SelectableTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- smokeTest.SelectableTest -->
     </classes>
   </test> <!-- smoketest(failed) -->
 </suite> <!-- Failed suite [suite] -->

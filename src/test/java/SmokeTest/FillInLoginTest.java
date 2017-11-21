@@ -1,10 +1,10 @@
-package smokeTest;
+package SmokeTest;
 
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import pageObjects.*;
+import PageObjects.*;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

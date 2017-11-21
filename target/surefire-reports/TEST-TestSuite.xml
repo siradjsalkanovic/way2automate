@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="181.156" tests="28" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="176.831" tests="27" errors="0" skipped="2" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib"/>
@@ -7,7 +7,7 @@
     <property name="user.country.format" value="BA"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/siradj/desktop/way2automate"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/siradj/Desktop/way2automate"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/siradj/Desktop/way2automate"/>
+    <property name="user.dir" value="/Users/siradj/.jenkins/workspace/FirstProjectDemo"/>
     <property name="java.runtime.version" value="1.8.0_151-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -47,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -DsuiteXmlFile=suitexmlfile.xml test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /Users/siradj/Desktop/way2automate -DsuiteXmlFile=suitexmlfile.xml test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -65,32 +65,43 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testOpenLoginPopup" classname="smokeTest.OpenLoginPopupTest" time="0.201"/>
-  <testcase name="testFillInLogin" classname="smokeTest.FillInLoginTest" time="0.398"/>
-  <testcase name="testSelectDatepicker" classname="smokeTest.SelectDatepickerTest" time="2.282"/>
-  <testcase name="testFillDatePicker" classname="smokeTest.DatepickerTest" time="30.378"/>
-  <testcase name="testSelTabAnimations" classname="smokeTest.DatepickerTest" time="0.12"/>
-  <testcase name="testTabAnimationsCommands" classname="smokeTest.DatepickerTest" time="33.079"/>
-  <testcase name="testTabDisplayMonthAndYear" classname="smokeTest.DatepickerTest" time="0.108"/>
-  <testcase name="testTabDisplayMonthAndYearCommands" classname="smokeTest.DatepickerTest" time="30.222"/>
-  <testcase name="testSelTabFormatDate" classname="smokeTest.DatepickerTest" time="0.133"/>
-  <testcase name="testTabFormatDateCommands" classname="smokeTest.DatepickerTest" time="0.334"/>
-  <testcase name="testShowDatePicker" classname="smokeTest.DatepickerTest" time="1.19"/>
-  <testcase name="testSelectSelectable" classname="smokeTest.SelectSelectableTest" time="0.81"/>
-  <testcase name="testSelectableStep1" classname="smokeTest.SelectableTest" time="2.107"/>
-  <testcase name="testSelectableStep2" classname="smokeTest.SelectableTest" time="0.099"/>
-  <testcase name="testSelectableStep3" classname="smokeTest.SelectableTest" time="3.542"/>
-  <testcase name="testSelectableStep4" classname="smokeTest.SelectableTest" time="0.095"/>
-  <testcase name="testSelectableStep5" classname="smokeTest.SelectableTest" time="1.882"/>
-  <testcase name="testSelectAlerts" classname="smokeTest.SelectAlertsTest" time="0.443"/>
-  <testcase name="testAlertsStep1" classname="smokeTest.AlertsTest" time="0.442"/>
-  <testcase name="testAlertsStep2" classname="smokeTest.AlertsTest" time="0.255"/>
-  <testcase name="testAlertsStep3" classname="smokeTest.AlertsTest" time="0.114"/>
-  <testcase name="testAlertsStep4" classname="smokeTest.AlertsTest" time="0.393"/>
-  <testcase name="testAlertsStep5" classname="smokeTest.AlertsTest" time="0.258"/>
-  <testcase name="testAlertsStep6" classname="smokeTest.AlertsTest" time="0.742"/>
-  <testcase name="testSelectDroppable" classname="smokeTest.SelectDroppableTest" time="0.484"/>
-  <testcase name="testDroppable" classname="smokeTest.DroppableTest" time="0.378"/>
-  <testcase name="testSelectDroppable" classname="smokeTest.SelectSliderTest" time="0.503"/>
-  <testcase name="testSlider" classname="smokeTest.SliderTest" time="0.292"/>
+  <testcase name="testOpenLoginPopup" classname="smokeTest.OpenLoginPopupTest" time="0.184"/>
+  <testcase name="testFillInLogin" classname="smokeTest.FillInLoginTest" time="0.397"/>
+  <testcase name="testSelectDatepicker" classname="smokeTest.SelectDatepickerTest" time="2.379"/>
+  <testcase name="testFillDatePicker" classname="smokeTest.DatepickerTest" time="30.371"/>
+  <testcase name="testSelTabAnimations" classname="smokeTest.DatepickerTest" time="0.128"/>
+  <testcase name="testTabAnimationsCommands" classname="smokeTest.DatepickerTest" time="30.533"/>
+  <testcase name="testTabDisplayMonthAndYear" classname="smokeTest.DatepickerTest" time="0.122"/>
+  <testcase name="testTabDisplayMonthAndYearCommands" classname="smokeTest.DatepickerTest" time="30.183"/>
+  <testcase name="testSelTabFormatDate" classname="smokeTest.DatepickerTest" time="0.121"/>
+  <testcase name="testTabFormatDateCommands" classname="smokeTest.DatepickerTest" time="0.311"/>
+  <testcase name="testShowDatePicker" classname="smokeTest.DatepickerTest" time="0.191">
+    <failure message="Date Picker not visible expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Date Picker not visible expected [true] but found [false]
+	at smokeTest.DatepickerTest.testShowDatePicker(DatepickerTest.java:89)
+</failure>
+  </testcase>
+  <testcase name="testSelectSelectable" classname="smokeTest.SelectSelectableTest" time="0.795"/>
+  <testcase name="testSelectableFirstIteration" classname="smokeTest.SelectableTest" time="2.112"/>
+  <testcase name="testSelectableDisplayAsGrid" classname="smokeTest.SelectableTest" time="0.095"/>
+  <testcase name="testSelectableSecondIteration" classname="smokeTest.SelectableTest" time="3.552"/>
+  <testcase name="testSelectableTabSerialize" classname="smokeTest.SelectableTest" time="0.098"/>
+  <testcase name="testSelectableThirdIterator" classname="smokeTest.SelectableTest" time="1.841"/>
+  <testcase name="testSelectAlerts" classname="smokeTest.SelectAlertsTest" time="0.45"/>
+  <testcase name="testAlertsShowFirstAlert" classname="smokeTest.AlertsTest" time="0.369"/>
+  <testcase name="testAlertsAcceptAlert" classname="smokeTest.AlertsTest" time="0.184"/>
+  <testcase name="testAlertsTabInputAlert" classname="smokeTest.AlertsTest" time="0.114">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at smokeTest.AlertsTest.testAlertsTabInputAlert(AlertsTest.java:64)
+</failure>
+  </testcase>
+  <testcase name="testAlertsShowSecondAlert" classname="smokeTest.AlertsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testAlertsInsertText" classname="smokeTest.AlertsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSelectDroppable" classname="smokeTest.SelectDroppableTest" time="1.836"/>
+  <testcase name="testDroppable" classname="smokeTest.DroppableTest" time="0.387"/>
+  <testcase name="testSelectDroppable" classname="smokeTest.SelectSliderTest" time="0.666"/>
+  <testcase name="testSlider" classname="smokeTest.SliderTest" time="0.329"/>
 </testsuite>
