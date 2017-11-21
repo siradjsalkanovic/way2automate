@@ -1,4 +1,4 @@
-package pageObjects;
+package PageObjects;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class datepickerPage {
+public class DatepickerPage {
 
     private WebDriver driver;
 
@@ -61,17 +61,17 @@ public class datepickerPage {
 
 
 
-    public datepickerPage(WebDriver driver) {
+    public DatepickerPage(WebDriver driver) {
         this.driver = driver;
     }
 
-    public datepickerPage clickDatePickerLink () {
+    public DatepickerPage clickDatePickerLink () {
         clickDatePicker.click();
-        return PageFactory.initElements(driver, datepickerPage.class);
+        return PageFactory.initElements(driver, DatepickerPage.class);
 
     }
 
-    public datepickerPage fillDatePicker () {
+    public DatepickerPage fillDatePicker () {
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(iFrameWindow1));
 
@@ -79,107 +79,81 @@ public class datepickerPage {
         datePicker.click();
         datePicker.sendKeys("11/02/2017");
         driver.switchTo().defaultContent();
-        return PageFactory.initElements(driver, datepickerPage.class);
+        return PageFactory.initElements(driver, DatepickerPage.class);
     }
 
-    public datepickerPage selectTabAnimations() {
+    public DatepickerPage selectTabAnimations() {
 
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(tabAnimations));
         tabAnimations.click();
-        return PageFactory.initElements(driver, datepickerPage.class);
+        return PageFactory.initElements(driver, DatepickerPage.class);
     }
 
-    public datepickerPage selectTabDisplayMonthAndYear(){
+    public DatepickerPage selectTabDisplayMonthAndYear(){
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(tabDisplayMonthYear));
         tabDisplayMonthYear.click();
-        return PageFactory.initElements(driver, datepickerPage.class);
+        return PageFactory.initElements(driver, DatepickerPage.class);
     }
 
-    public datepickerPage selectTabFormatDate(){
+    public DatepickerPage selectTabFormatDate(){
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(tabFormatDate));
         tabFormatDate.click();
-        return PageFactory.initElements(driver, datepickerPage.class);
+        return PageFactory.initElements(driver, DatepickerPage.class);
     }
 
-    public datepickerPage tabAnimationsCommands() {
+    public DatepickerPage tabAnimationsCommands() {
 
         WebDriverWait wait = new WebDriverWait(driver, 8);
         wait.until(ExpectedConditions.visibilityOf(iFrameWindow2));
 
         driver.switchTo().frame(iFrameWindow2);
         datePicker.sendKeys("11/02/2017");
-
         dropdown = new Select(selectBoxAnimation);
         dropdown.selectByVisibleText("Bounce (UI Effect)");
-
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         datePicker.click();
-
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         datePicker.sendKeys(Keys.ESCAPE);
-
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         dropdown.selectByVisibleText("Drop (UI Effect)");
 
         driver.switchTo().defaultContent();
-        return PageFactory.initElements(driver, datepickerPage.class);
+        return PageFactory.initElements(driver, DatepickerPage.class);
 
     }
 
-    public datepickerPage tabDisplayMonthAndYearCommands() {
+    public DatepickerPage tabDisplayMonthAndYearCommands() {
         driver.switchTo().frame(iFrameWindow3);
         datePicker.sendKeys("11/02/2017");
         driver.switchTo().defaultContent();
 
-        return PageFactory.initElements(driver, datepickerPage.class);
+        return PageFactory.initElements(driver, DatepickerPage.class);
     }
 
-    public datepickerPage tabFormatDateCommands() {
+    public DatepickerPage tabFormatDateCommands() {
         driver.switchTo().frame(iFrameWindow4);
         datePicker.sendKeys("11/02/2017");
 
         Select dropdown = new Select(selectBoxDateFormat);
         dropdown.selectByIndex(4);
-        dateFormat=datePicker.getAttribute("value");
+        dateFormat = datePicker.getAttribute("value");
         driver.switchTo().defaultContent();
 
-        return PageFactory.initElements(driver, datepickerPage.class);
+        return PageFactory.initElements(driver, DatepickerPage.class);
     }
 
-    public datepickerPage clickSelectableLink(){
+    public DatepickerPage clickSelectableLink(){
         driver.switchTo().defaultContent();
         clickSelectable.click();
-        return PageFactory.initElements(driver, datepickerPage.class);
+        return PageFactory.initElements(driver, DatepickerPage.class);
     }
 
-    public datepickerPage clickShowDatePicker(){
+    public DatepickerPage clickShowDatePicker(){
         driver.switchTo().frame(iFrameWindow4);
 
         datePicker.click();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        return PageFactory.initElements(driver, datepickerPage.class);
+
+        return PageFactory.initElements(driver, DatepickerPage.class);
     }
 
     public Boolean compareDateFormat(String date1){

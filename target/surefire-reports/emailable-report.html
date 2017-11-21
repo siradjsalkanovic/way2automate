@@ -31,29 +31,101 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">smoketest</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">1.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">smoketest</td><td class="numi">23</td><td class="numi">23</td><td class="numi_attn">2</td><td class="numi_attn">2</td><td class="numi">107.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">smoketest &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">smokeTest.SecondTest</td><td><a href="#m1"><b>testSelectDatepicker</b>  </a></td><td class="numi">1</td><td>1510847324500</td><td class="numi">1</td></tr>
+<tr class="failedodd"><td rowspan="1">smokeTest.AlertsTest</td><td><a href="#m1"><b>testAlertsTabInputAlert</b>  </a></td><td class="numi">1</td><td>1511186885994</td><td class="numi">114</td></tr>
+<tr class="failedeven"><td rowspan="1">smokeTest.DatepickerTest</td><td><a href="#m2"><b>testShowDatePicker</b>  </a></td><td class="numi">1</td><td>1511186876304</td><td class="numi">184</td></tr>
+<tr><th colspan="4">smoketest &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">smokeTest.AlertsTest</td><td><a href="#m3"><b>testAlertsShowSecondAlert</b>  </a></td><td class="numi">1</td><td>1511186886108</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m4"><b>testAlertsInsertText</b>  </a></td><td class="numi">1</td><td>1511186886108</td><td class="numi">0</td></tr>
 <tr><th colspan="4">smoketest &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">smokeTest.SmokeTest</td><td><a href="#m2"><b>testFillInLogin</b>  </a></td><td class="numi">1</td><td>1510847324027</td><td class="numi">472</td></tr><tr class="passedodd"><td><a href="#m3"><b>testOpenLoginPopup</b>  </a></td><td class="numi">1</td><td>1510847323440</td><td class="numi">586</td></tr>
+<tr class="passedodd"><td rowspan="2">smokeTest.AlertsTest</td><td><a href="#m5"><b>testAlertsAcceptAlert</b>  </a></td><td class="numi">1</td><td>1511186885810</td><td class="numi">184</td></tr><tr class="passedodd"><td><a href="#m6"><b>testAlertsShowFirstAlert</b>  </a></td><td class="numi">1</td><td>1511186885441</td><td class="numi">369</td></tr>
+<tr class="passedeven"><td rowspan="1">smokeTest.DroppableTest</td><td><a href="#m7"><b>testDroppable</b>  </a></td><td class="numi">1</td><td>1511186887944</td><td class="numi">387</td></tr>
+<tr class="passedodd"><td rowspan="1">smokeTest.DatepickerTest</td><td><a href="#m8"><b>testFillDatePicker</b>  </a></td><td class="numi">1</td><td>1511186784533</td><td class="numi">30370</td></tr>
+<tr class="passedeven"><td rowspan="1">smokeTest.FillInLoginTest</td><td><a href="#m9"><b>testFillInLogin</b>  </a></td><td class="numi">1</td><td>1511186781756</td><td class="numi">398</td></tr>
+<tr class="passedodd"><td rowspan="1">smokeTest.OpenLoginPopupTest</td><td><a href="#m10"><b>testOpenLoginPopup</b>  </a></td><td class="numi">1</td><td>1511186781571</td><td class="numi">184</td></tr>
+<tr class="passedeven"><td rowspan="2">smokeTest.DatepickerTest</td><td><a href="#m11"><b>testSelTabAnimations</b>  </a></td><td class="numi">1</td><td>1511186814904</td><td class="numi">128</td></tr><tr class="passedeven"><td><a href="#m12"><b>testSelTabFormatDate</b>  </a></td><td class="numi">1</td><td>1511186875871</td><td class="numi">121</td></tr>
+<tr class="passedodd"><td rowspan="1">smokeTest.SelectAlertsTest</td><td><a href="#m13"><b>testSelectAlerts</b>  </a></td><td class="numi">1</td><td>1511186884990</td><td class="numi">451</td></tr>
+<tr class="passedeven"><td rowspan="1">smokeTest.SelectDatepickerTest</td><td><a href="#m14"><b>testSelectDatepicker</b>  </a></td><td class="numi">1</td><td>1511186782154</td><td class="numi">2378</td></tr>
+<tr class="passedodd"><td rowspan="1">smokeTest.SelectDroppableTest</td><td><a href="#m15"><b>testSelectDroppable</b>  </a></td><td class="numi">1</td><td>1511186886108</td><td class="numi">1836</td></tr>
+<tr class="passedeven"><td rowspan="1">smokeTest.SelectSliderTest</td><td><a href="#m16"><b>testSelectDroppable</b>  </a></td><td class="numi">1</td><td>1511186888331</td><td class="numi">665</td></tr>
+<tr class="passedodd"><td rowspan="1">smokeTest.SelectSelectableTest</td><td><a href="#m17"><b>testSelectSelectable</b>  </a></td><td class="numi">1</td><td>1511186876495</td><td class="numi">795</td></tr>
+<tr class="passedeven"><td rowspan="5">smokeTest.SelectableTest</td><td><a href="#m18"><b>testSelectableDisplayAsGrid</b>  </a></td><td class="numi">1</td><td>1511186879403</td><td class="numi">95</td></tr><tr class="passedeven"><td><a href="#m19"><b>testSelectableFirstIteration</b>  </a></td><td class="numi">1</td><td>1511186877291</td><td class="numi">2112</td></tr><tr class="passedeven"><td><a href="#m20"><b>testSelectableSecondIteration</b>  </a></td><td class="numi">1</td><td>1511186879498</td><td class="numi">3552</td></tr><tr class="passedeven"><td><a href="#m21"><b>testSelectableTabSerialize</b>  </a></td><td class="numi">1</td><td>1511186883051</td><td class="numi">98</td></tr><tr class="passedeven"><td><a href="#m22"><b>testSelectableThirdIterator</b>  </a></td><td class="numi">1</td><td>1511186883149</td><td class="numi">1841</td></tr>
+<tr class="passedodd"><td rowspan="1">smokeTest.SliderTest</td><td><a href="#m23"><b>testSlider</b>  </a></td><td class="numi">1</td><td>1511186888997</td><td class="numi">329</td></tr>
+<tr class="passedeven"><td rowspan="4">smokeTest.DatepickerTest</td><td><a href="#m24"><b>testTabAnimationsCommands</b>  </a></td><td class="numi">1</td><td>1511186815032</td><td class="numi">30533</td></tr><tr class="passedeven"><td><a href="#m25"><b>testTabDisplayMonthAndYear</b>  </a></td><td class="numi">1</td><td>1511186845566</td><td class="numi">121</td></tr><tr class="passedeven"><td><a href="#m26"><b>testTabDisplayMonthAndYearCommands</b>  </a></td><td class="numi">1</td><td>1511186845688</td><td class="numi">30183</td></tr><tr class="passedeven"><td><a href="#m27"><b>testTabFormatDateCommands</b>  </a></td><td class="numi">1</td><td>1511186875993</td><td class="numi">311</td></tr>
 </table>
 <h1>smoketest</h1>
-<h2 id="m1">smokeTest.SecondTest:testSelectDatepicker</h2>
+<h2 id="m1">smokeTest.DatepickerTest:testShowDatePicker</h2>
 <div style="padding-left:3em">
-<p>null</p>
-org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-<br/>at com.sun.proxy.$Proxy8.click(Unknown Source)
-<br/>at pageObjects.homePage.clickDatePickerLink(homePage.java:38)
-<br/>at smokeTest.SecondTest.testSelectDatepicker(SecondTest.java:68)
+<p>Date Picker not visible expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at smokeTest.DatepickerTest.testShowDatePicker(DatepickerTest.java:89)
 <br/>28 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">smokeTest.SmokeTest:testFillInLogin</h2>
+<h2 id="m2">smokeTest.AlertsTest:testAlertsTabInputAlert</h2>
+<div style="padding-left:3em">
+<p>expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at org.testng.Assert.assertTrue(Assert.java:52)
+<br/>at smokeTest.AlertsTest.testAlertsTabInputAlert(AlertsTest.java:64)
+<br/>28 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">smokeTest.SmokeTest:testOpenLoginPopup</h2>
+<h2 id="m3">smokeTest.AlertsTest:testAlertsShowSecondAlert</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">smokeTest.AlertsTest:testAlertsInsertText</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">smokeTest.OpenLoginPopupTest:testOpenLoginPopup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">smokeTest.DatepickerTest:testTabDisplayMonthAndYearCommands</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">smokeTest.SelectableTest:testSelectableDisplayAsGrid</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">smokeTest.SelectAlertsTest:testSelectAlerts</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">smokeTest.AlertsTest:testAlertsShowFirstAlert</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">smokeTest.DatepickerTest:testSelTabAnimations</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">smokeTest.SelectDatepickerTest:testSelectDatepicker</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">smokeTest.DatepickerTest:testTabAnimationsCommands</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">smokeTest.DroppableTest:testDroppable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">smokeTest.SelectDroppableTest:testSelectDroppable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">smokeTest.SelectableTest:testSelectableFirstIteration</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">smokeTest.DatepickerTest:testTabFormatDateCommands</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">smokeTest.SelectableTest:testSelectableThirdIterator</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">smokeTest.SelectSliderTest:testSelectDroppable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">smokeTest.SliderTest:testSlider</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">smokeTest.DatepickerTest:testFillDatePicker</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">smokeTest.SelectableTest:testSelectableTabSerialize</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">smokeTest.DatepickerTest:testSelTabFormatDate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">smokeTest.AlertsTest:testAlertsAcceptAlert</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">smokeTest.FillInLoginTest:testFillInLogin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">smokeTest.SelectSelectableTest:testSelectSelectable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">smokeTest.SelectableTest:testSelectableSecondIteration</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">smokeTest.DatepickerTest:testTabDisplayMonthAndYear</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

@@ -1,8 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.855 sec <<< FAILURE! - in TestSuite
-testSelectDatepicker(smokeTest.SecondTest)  Time elapsed: 0.009 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at smokeTest.SecondTest.testSelectDatepicker(SecondTest.java:68)
+Tests run: 27, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 176.831 sec <<< FAILURE! - in TestSuite
+testShowDatePicker(smokeTest.DatepickerTest)  Time elapsed: 0.191 sec  <<< FAILURE!
+java.lang.AssertionError: Date Picker not visible expected [true] but found [false]
+	at smokeTest.DatepickerTest.testShowDatePicker(DatepickerTest.java:89)
+
+testAlertsTabInputAlert(smokeTest.AlertsTest)  Time elapsed: 0.114 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at smokeTest.AlertsTest.testAlertsTabInputAlert(AlertsTest.java:64)
 
